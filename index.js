@@ -9,8 +9,6 @@ const stdout = {
     }
 };
 
-const stdin = undefined;
-
 const stderr = {
     write(data) {
         process.stderr.write(data);
@@ -37,4 +35,4 @@ const colors = {
 };
 
 
-module.exports = { stdout, stdin, stderr, colors };
+module.exports = { stdout, stderr, colors };

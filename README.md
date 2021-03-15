@@ -1,15 +1,19 @@
-# js-io
+# js-stdout
 
-## Advanced Input/Output library for JavaScript
+## A wrapper around process.stdout/stderr with colors support
 
 ```javascript
-const io = require('js-io');
+const stdout = require('js-stdout');
 
-io.stdout.write('Hello from js-io!')
+stdout.write('Hello from stdout!');
 ```
 
-## TODO
+## What for? 
+I needed a tiny wrapper around `process` and also colors support, so I decided to write this small lib.
 
-- [x] stderr
-- [ ] stdin
-- [ ] full colors support
+## TODO:
+- [ ] Colors support (finish)
+- [ ] Documentation
+
+## Status
+The library is absolutely stable because of its small size.

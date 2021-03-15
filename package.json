@@ -1,8 +1,8 @@
 {
-  "name": "@primitive0/js-io",
-  "version": "0.0.2",
-  "description": "Advanced IO library for javascript",
+  "name": "@primitive0/js-stdout",
+  "version": "0.1.0",
+  "description": "A wrapper around process.stdout/stderr with colors support",
   "main": "index.js",
   "author": "primitive",
-  "license": "Apache-2.0"
+  "license": "Unlicense"
 }
